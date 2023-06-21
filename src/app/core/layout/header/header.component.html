@@ -1,9 +1,9 @@
 <Header class="header" role="banner">
     <section class="header-details">
-        <p [routerLink]="['/home']"  class="cursor-pointer">Home</p>
+        <p [routerLink]="['/home']" class="cursor-pointer">Home</p>
         <div class="auth">
-            <p class="cursor-pointer">Login</p>
-            <p class="cursor-pointer">Sign up</p>
+            <p [routerLink]="['/login']" class="cursor-pointer">Login</p>
+            <p [routerLink]="['/signup']" class="cursor-pointer">Sign up</p>
         </div>
     </section>
 </Header>

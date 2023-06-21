@@ -2,4 +2,5 @@
     position: fixed;
     bottom: -12rem;
     left: -92rem;
+    z-index: -999;
 }
