@@ -1,0 +1,28 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    padding: 0 2rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .header .header-details{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  .auth{
+    display: flex;
+  }
+
+  .auth p:first-child {
+    margin-right: 1rem;
+  }
