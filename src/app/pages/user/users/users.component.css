@@ -14,3 +14,12 @@ th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+
+.add-btn{
+  margin-bottom: 1rem;
+}
+
+.edit-btn{
+  width: 40px;
+}
